@@ -15,6 +15,7 @@
 
 		$result = $conn->query($sqlStatement);
 		
+		
 		if (!$result) {
 			echo 'Could not run query: ' . mysql_error();
 			exit;

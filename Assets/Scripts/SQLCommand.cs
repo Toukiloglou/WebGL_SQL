@@ -32,6 +32,7 @@ public class SQLCommand : MonoBehaviour
     }
 
     void Start() {
+        inpSQL.text = "SELECT 'Word_EN' From 'Word'";
     }
 
     void Update() {
